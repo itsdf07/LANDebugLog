@@ -82,7 +82,7 @@ public class LANLogServiceSocketJFrame implements LANLogDebugService.ILogCallbac
         mCenterSplit.setDividerLocation(100);
         mNorthPanel = new JPanel();
         mNorthPanel.setLayout(new GridLayout(1, 6));
-        mNorthPanel.add(new JLabel("Max LANLogDebugClientJFrame"));//人数上限
+        mNorthPanel.add(new JLabel("Max Client"));//人数上限
         mNorthPanel.add(mMaxClient);
         mNorthPanel.add(new JLabel("Port"));//端口
         mNorthPanel.add(mPort);
