@@ -21,6 +21,7 @@ public class LANLogDebugClient {
     public static final int USER_REMOVE = 2;
     public static final int USER_REMOVE_All = 3;
 
+
     public interface ILogCallbackImpl {
         /**
          * 消息交互
